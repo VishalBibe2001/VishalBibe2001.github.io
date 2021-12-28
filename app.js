@@ -9,7 +9,7 @@ hamburger.addEventListener('click',()=> {
 });
 document.addEventListener('scroll',() => {
     var scroll_position = window.scrollY;
-    if (scroll_position > 2) {
+    if (scroll_position > 1) {
         header.style.backgroundColor = "#29323c";
     }
      else {
